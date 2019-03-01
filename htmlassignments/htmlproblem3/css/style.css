@@ -1,0 +1,165 @@
+body{
+	color: #666;
+	font-weight: 300;
+	width: 100% !important;
+    height: 100% !important;
+   position: relative;
+}
+
+.lo{
+    margin-left:45px !important;
+}
+.icon{
+    color:#0BABDB;
+}
+.intro{
+    background:url(../img/intro-bg.jpg);
+    background-color: #E5E5E5;
+    width:100%;
+    height:100vh;
+    /* display:table; */
+    background-size: cover;
+}
+.overlay{
+    background: rgba(255,255,255,0.2);
+}
+.bg{
+    background-color:transparent !important;  
+}
+
+#mainmenu.background{
+  background:transparent;
+  border:transparent;
+}
+
+.intro h1 {
+	color: #0ba2db;
+	font-size: 74px;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.intro p {
+	color: #444;
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+header .intro {
+	padding-top: 300px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+.style {
+    color: #fff;
+    background-color: #0ba2db;
+    border: 0;
+    padding: 14px 20px;
+    margin: 0;
+    font-size: 16px;
+    border-radius: px;
+    margin-top: 20px;
+}
+
+#about .img{
+    border-radius:20px;
+    padding:20px;
+    border-color:#0BA2DB;
+}
+
+#services{
+    background: #f6f6f6;
+}
+
+#price .ptable{
+    border:1px solid #E4E4E4;
+    text-align:center;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.ptable>.plan-name{
+    box-shadow: 0 0 20px rgba(0,0,0,0.05) inset;
+    padding:15px;
+}
+
+.plan-price>.price-value{
+    padding:25px 0;
+    font-size:30px;
+}
+
+.ptable>.plan-list li{
+    border-bottom:1px solid #eee;
+    padding:8px;
+}
+ul{
+    list-style: none;
+    padding:0;
+}
+
+.ptable>.plan-list li:first-child{
+    border-top: 1px solid #EEE;
+}
+
+.plan-signup{
+    padding:20px;
+}
+
+.bck
+{
+    background-color: #0ba2db;
+    padding:30px 0;
+}
+.high{
+    margin:-15px 0px;
+}
+
+.ptable:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.cbck{
+    background:#e3e3e3
+}
+
+.fa{
+    color:#0BA2DB;
+    /* font-size:26px !important; */
+}
+#contact .social ul li{
+    display:inline-block;
+    padding:90px 26px 0 29px;
+}
+
+#footer{
+    background:#e6e6e6;
+    color:#888;
+    padding:20px 20px 20px 20px;
+    border:1px solid #fff
+
+}
+
+#about li::before{
+    content:'\2713 ';
+    color:#0ba2db;
+    padding-right:10px;
+}
+
+hr {
+    height: 2px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    border-top: 1px solid aqua !important;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.size{
+    font-size: 19px;
+}
+
+.divstyle{
+    padding-top: 40px;
+}
