@@ -9,14 +9,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
   <link rel="stylesheet" type="text/css" href="css/zoomslider.css">
   <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/style_common.css" />
   <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
   <script type="text/javascript" src="js/car.js"></script>
+  
 </head>
-<!-- <div class="lds-hourglass">
-    </div> -->
+
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="navbar navbar-fixed-top custom-navbar top-nav-collapse">
@@ -55,8 +57,8 @@
     <div id="demo-1" data-zs-src='["img/01.jpg", "img/02.jpg", "img/03.jpg"]' data-zs-overlay="dots">
       <div class="demo-inner-content">
 
-        <h2>LETS TAKE A SNAPSHOT</h2>
-        <P>Snapshot website template is available for free download. Anyone can modify and use it for any site. Please
+        <h2 class="wow animated fadeInUp" data-wow-delay="0.25s">LETS TAKE A SNAPSHOT</h2>
+        <P class="wow animated fadeInUp" data-wow-delay="0.4s">Snapshot website template is available for free download. Anyone can modify and use it for any site. Please
           tell your friends about templatemo. Thank you.</P>
         <button type="button" class="btn btn-danger btn-lg hover">Learn More</button>
       </div>
@@ -65,7 +67,7 @@
   <section id="about" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-9 col-sm-8 bg-white">
+        <div class="col-md-9 col-sm-8 bg-white wow animated fadeInUp" data-wow-delay="0.25s">
           <div class="thumb">
             <h1>Background</h1>
             <p>Quisque tempor bibendum dolor at volutpat. Suspendisse venenatis quam sed libero euismod feugiat. In
@@ -74,19 +76,19 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-4 wow animated fadeInUp" data-wow-delay="0.6s">
           <img src="img/about-img.jpg" class="img-fluid rounded-circle img">
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="section-title text-center">
+          <div class="section-title text-center wow animated fadeInUp" data-wow-delay="0.3s">
             <h2>SNAPSHOT TEAM</h2>
             <P>Quisque tempor bibendum dolor at volutpat. Suspendisse venenatis quam sed libero euismod feugiat.</P>
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid wow animated fadeInUp" data-wow-delay="0.5s">
         <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
           <div class="carousel-inner row w-100 mx-auto" role="listbox">
             <div class="carousel-item col-md-3  active">
@@ -183,7 +185,7 @@
       </div>
 
     </div>
-    <section id="gallery">
+    <section id="gallery" class="wow animated fadeInUp" data-wow-delay="0.10">
       <div class="container-fluid bg-white">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -231,7 +233,7 @@
     </section>
 
   </section>
-  <section id="contact" class="bg-dark">
+  <section id="contact" class="bg-dark wow animated fadeInUp" data-wow-delay="0.3s">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center colour">
@@ -272,7 +274,7 @@
       </form>
     </div>
   </section>
-  <footer>
+  <footer class="wow animated fadeInUp" data-wow-delay="0.7s">
     <div class="container-fluid bg-dark">
       <div class="row">
         <div class="col-md-12 col-sm-12">
@@ -293,7 +295,7 @@
                 <a href="#" class="fa fa-google-plus"></a>
             </li>
           </ul>
-          <h5 class="text-center colour">Copyrights @ 2016 Snapshot Studio | Design : VishnuPrakash</h5>
+          <h5 class="text-center colour">Copyrights @ 2019 Snapshot Studio | Design : VishnuPrakash</h5>
         </div>
       </div>
     </div>
@@ -306,7 +308,7 @@
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
-
+  <script src="js/wow.js"></script>
 
   <script type="text/javascript">
 
@@ -324,6 +326,13 @@
     });
 
   </script>
+
+
+
+<script>
+    new WOW().init();
+</script>
+
 
 </body>
 
