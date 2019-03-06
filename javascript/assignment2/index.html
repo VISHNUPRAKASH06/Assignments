@@ -1,0 +1,24 @@
+<script>
+	var salary={
+		vishnu:100,
+		prakash:160,
+		vishnuprakash:130
+	}
+	function totalsalary(salary) {
+      var sum = 0;
+      for (var salary of Object.values(salary)) {   
+      	debugger
+        sum += salary;
+      }
+      return sum;
+    }
+	console.log("The Sum of Salary is: " + totalsalary(salary));
+	</script>
+
+
+	<!-- Points to remember
+	Object.values() method is used to return an array whose elements are the enumerable property values found on the object.  -->
+
+	<!-- object.keys() method is used to return Keys values like ( vishnu,prakash,vishnuprakash)
+
+	object.entries() method is used to return (vishnu:100,prakash:160,vishnuprakash:130) -->
