@@ -1,15 +1,33 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<!-- Condition One -->
+<script>
+var vishnu={
 
-    </head>
-    <body>
-        <script>
-            var vishnu ={
-            }
-            alert (isEmpty(vishnu)) ;
-            vishnu["8:30"] ="get up";
-            alert(isEmpty(schedule));
-            </script>
-    </body>
-</html>
+}
+vishnu.age=25;
+function isEmpty(vishnu){
+	for(var result in vishnu){
+		debugger
+		return false;
+	}
+		return true;
+}
+console.log("They Contain Property so that output is :" + isEmpty(vishnu));
+
+
+</script>
+
+
+<!-- // Condition Second -->
+
+<script>
+var vishnu={
+}
+function isEmpty(vishnu){
+	for(var key in vishnu){
+		debugger
+		return false;
+	}
+		return true;
+}
+console.log("They Contain No Property so that output is: " + isEmpty(vishnu)); 
+</script>
