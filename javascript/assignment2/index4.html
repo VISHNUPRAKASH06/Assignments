@@ -3,13 +3,24 @@ var user = {
     name: "john",
     money: 1000,
     toString() {
+    	debugger
         return this.name;
     },
+
     valueOf() {
         return this.money;
     }
 }
+
+
+
+// var user2= Object.assign([],user);
+// console.log(user2);
+// var user3=user;
+// console.log(user3);
 console.log(user);
 console.log(+user);
 console.log(user + 500);
+
+
 </script>
