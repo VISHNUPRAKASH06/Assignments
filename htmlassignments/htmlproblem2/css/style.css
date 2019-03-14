@@ -11,9 +11,16 @@ html,body {
   height: 100%;
 }
 
+.yellow{
+    color:#E3AE57
+}
 
 .logo{
  color: black !important;
+ font-size: 24px !important;
+ font-weight: bold;
+ line-height:35px !important;
+ letter-spacing: 1px;
  
 }
 .menu{
@@ -35,8 +42,8 @@ html,body {
     background-image: url(../images/about-img.jpg);
     width:100%;
     height:100%;
-    min-height:40vh;
-    position: relative;
+    min-height:50vh;
+    position: absolute;
     background-size:cover !important;
     background-position: 50% 50% !important;
     top:0px;
@@ -62,6 +69,7 @@ html,body {
 #home .col-md-6
 {
     background-color: #F1E2D7;
+    padding-right:0px;
 }
 
 .section-title {
@@ -97,16 +105,21 @@ position: relative;
     font-size: 20px;
 }
 .bg-yellow{
-    background-color:#ff896e;
+    background-color:#E3AE57;
 }
 
 .bg-white
 {
-    background-color:#6fe2d2e8;
+background-color: #E9724C;
+
 }
 .bg-red
 {
-    background-color: #34de9f;
+    background-color: #121212;
+}
+
+.bg-whitee{
+    background-color: #FFF;
 }
 
 #experience .experience-image{
@@ -126,17 +139,17 @@ position: relative;
 }
 
 #experience .experience-thumb{
-    display: -webkit-flex;
+    /* display: -webkit-flex;
     display:-webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
--webkit-align-items: center;
--ms-flex-align: center;
-align-items: center;
+    display: flex; */
+    /* -webkit-box-align: center;
+-webkit-align-items: center; */
+/* -ms-flex-align: center;
+align-items: center; */
 height: 50vh;
-padding: 0 20px 0 25px;
-background-color: rgb(141, 122, 122);
+padding: 17px 0 28px 45px;
+background-color: #E9724C;
 }
 #about .about-thumb{
     padding:45px;
@@ -148,17 +161,18 @@ background-color: rgb(141, 122, 122);
 }
 
 #education .education-thumb{
-    display: -webkit-flex;
+    /* display: -webkit-flex;
     display:-webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex; */
     -webkit-box-align: center;
 -webkit-align-items: center;
 -ms-flex-align: center;
 align-items: center;
 height: 50vh;
 padding: 0 20px 0 25px;
-background-color: #d0d3ff;
+background-color: #E3AE57;
+padding:22px 42px 42px 42px;
 }
 
 #quote {
@@ -173,28 +187,28 @@ background-color: #d0d3ff;
 }
 
 #contact .contact-thumb{
-    padding:45px;
+    padding:30px;
 }
 #contact .contact-image {
     background-image: url(../images/contact-img.jpg);
     background-size: cover !important;
     background-position: center center;
     color: #ffffff;
-    position: relative;
-    padding: 100px 0px;
+    /* position: relative;
+    padding: 100px 0px; */
     height:75vh;
     }
 
     .bgcolor{
-        background-color: #c18584;
+        background-color: #E9724C;
        
     }
     .bg-dark{
 
-        background: #8ac0cbe8;
+        background: black;
         min-height:75vh !important;
         padding: 22px 32px 22px 32px !important;
-        margin-left:-14px;
+        margin-left:-15px;
     }
     .custom-navbar{
         padding:12px 0px;
@@ -239,3 +253,205 @@ display: contents;
 .hover:hover{
         background-color: yellow;
         }
+
+.facebook:before{
+
+    content:"\f09a";
+    font-family: FontAwesome;
+  display: inline-block;
+}
+
+.twitter:before{
+    content:"\f099";
+    font-family: FontAwesome;
+  display: inline-block;
+}
+
+.linkedin:before{
+  
+    content:"\f0e1";
+    font-family: FontAwesome;
+  display: inline-block;
+}
+
+.googleplus:before{
+    content: "\f0d5";
+    font-family: FontAwesome;
+  display: inline-block;
+}
+
+.dribble:before{
+    content: "\f17d";
+    font-family: FontAwesome;
+  display: inline-block;
+
+}
+
+.display{
+    display:inline-flex;
+    list-style:none;
+    /* margin:10px; */
+    
+}
+
+#social li{
+    padding:20px;
+}
+
+#social li:hover{
+    background:chocolate;
+    border-radius:50px;
+    border:1px solid transparent;
+   
+}
+
+a{
+    color:#E3AE57 !important;
+}
+
+P{
+    font-size:16px;
+    font-weight:300;
+    line-height:28px;
+    letter-spacing:0.2px;
+    color:#888;
+}
+
+h3{
+    color:#FFF !important;
+}
+
+h1{
+    color:#FFF !important;
+    font-size:42px;
+    padding-bottom:14px;
+    margin-bottom:0px;
+}
+
+.white{
+    color:#FFF !important;
+}
+
+.phone:before{
+    content: "\f095";
+    font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em; 
+}
+
+.email:before{
+    content: "\f003" ;
+    font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
+
+.web:before{
+    content: "\f0ac" ;
+    font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
+
+.form-control{
+    background:transparent !important;
+    border:none !important;
+    color:#FFF !important;
+    border-bottom:1px solid #E3AE57 !important;
+    font-size:18px !important;
+    margin-top:30px !important;
+    margin-bottom:25px !important;
+}
+
+#contact input{
+    height:45px;
+   
+}
+::placeholder{
+    color:#FFF !important;
+}
+
+.radius{
+    border-radius:40px !important;
+   
+}
+
+.radius:hover{
+        background: #E9724C !important;
+      
+}
+
+.overlay{
+    opacity:0.7;
+    background-color: #121212 !important;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+}
+
+.fa-star:before{
+    content:"\f005";
+    font-family: FontAwesome;
+    font-size:42px;
+    margin-bottom:22px;
+    margin-top:32px;
+}
+
+#quote p{
+    /* padding-top:1px; */
+    font-size:12px;
+}
+
+.media{
+    display: table-cell;
+}
+
+#education small{
+    color:#886d1e;
+    font-weight:bold;
+}
+
+#experience small{
+    color:#633;
+    font-weight:bold;
+}
+
+.bg-skill{
+    background:#E3AE57;
+   
+}
+
+.skill-thumb{
+    padding:58px;
+}
+
+#service .fa{
+font-size:42px !important;
+padding-bottom:22px;
+}
+
+#home .btn{
+    border-radius: 100px;
+    border:3px solid #121212;
+    color:#232b2b !important;
+    padding:12px 36px;
+    background: transparent;
+}
+
+#home .btn:hover{
+    background: #E39e57;
+}
+
+#home h1{
+    color:black !important;
+}
+
+#menus li{
+    font-weight:200;
+    font-size: 14px;
+    
+}
