@@ -4,15 +4,25 @@ body {
     font-style: normal;
 	font-weight: 300;
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
-html,body {
-  width: 100%;
-  height: 100%;
+/* html,body {
+ 
+} */
+
+h4{
+    color:#999;
+    font-size:12px !important;
+    letter-spacing: 2px;
+    padding-top:6px;
+    text-transform: uppercase;
+    /* font-weight:normal; */
 }
 
 .yellow{
-    color:#E3AE57
+    color:#E3AE57 !important;
 }
 
 .logo{
@@ -21,6 +31,8 @@ html,body {
  font-weight: bold;
  line-height:35px !important;
  letter-spacing: 1px;
+ text-shadow: 1px 1px #FFF;
+ margin-left:150px !important;
  
 }
 .menu{
@@ -42,7 +54,7 @@ html,body {
     background-image: url(../images/about-img.jpg);
     width:100%;
     height:100%;
-    min-height:50vh;
+    min-height:75vh;
     position: absolute;
     background-size:cover !important;
     background-position: 50% 50% !important;
@@ -314,18 +326,35 @@ P{
     font-weight:300;
     line-height:28px;
     letter-spacing:0.2px;
-    color:#888;
+    color:#888 !important;
 }
 
 h3{
     color:#FFF !important;
 }
 
+strong{
+    font-weight:normal;
+    color:#232b2b !important;
+}
+
 h1{
-    color:#FFF !important;
+    /* color:#FFF !important; */
     font-size:42px;
     padding-bottom:14px;
     margin-bottom:0px;
+    font-weight:300;
+    color:black !important;
+}
+
+h2{
+    font-size:42px !important;
+    line-height:52px !important;
+    margin-top:0px !important;
+}
+
+.black{
+    color:black !important;
 }
 
 .white{
@@ -367,7 +396,7 @@ h1{
 }
 
 #contact input{
-    height:45px;
+    height:45px !important;
    
 }
 ::placeholder{
@@ -376,12 +405,18 @@ h1{
 
 .radius{
     border-radius:40px !important;
-   
+   height:53px;
 }
 
 .radius:hover{
         background: #E9724C !important;
+        
       
+}
+
+.pad{
+    padding-top:100px;
+    padding-bottom:100px;
 }
 
 .overlay{
@@ -440,14 +475,17 @@ padding-bottom:22px;
     color:#232b2b !important;
     padding:12px 36px;
     background: transparent;
+    letter-spacing: 1.6px;
+    margin-top:42px;
+    text-transform: uppercase;
+    font-size:13px;
+    font-weight: bold;
 }
 
 #home .btn:hover{
     background: #E39e57;
-}
-
-#home h1{
-    color:black !important;
+    border:none;
+    color: #FFF !important;
 }
 
 #menus li{

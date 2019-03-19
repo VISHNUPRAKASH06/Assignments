@@ -4,10 +4,28 @@ body{
 	width: 100% !important;
     height: 100% !important;
    position: relative;
+   font-family: 'Roboto';
 }
 
 .lo{
     margin-left:45px !important;
+    font-size:20px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#about{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.hov:hover{
+    background:black;
+    color:white !important;
+}
+#myNavbar
+{
+    padding:20px;
+    text-transform: uppercase;
 }
 .icon{
     color:#0BABDB;
@@ -27,6 +45,10 @@ body{
     background-color:transparent !important;  
 }
 
+.smessage:hover{
+    background:black !important;
+    border:none;
+}
 #mainmenu.background{
   background:transparent;
   border:transparent;
@@ -70,6 +92,17 @@ header .intro {
 
 #services{
     background: #f6f6f6;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+#contact{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+#price{
+    padding-top:100px;
+    padding-bottom:100px;
 }
 
 #price .ptable{
@@ -119,7 +152,7 @@ ul{
 }
 
 .cbck{
-    background:#e3e3e3
+    background:#F6F6F6
 }
 
 .fa{

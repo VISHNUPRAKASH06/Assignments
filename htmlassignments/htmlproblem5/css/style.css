@@ -24,7 +24,7 @@ html,body {
     z-index: 2; /* if z-index is not set, the script will set it to '2'. */
     margin: 180px auto;
     padding: 40px;
-    max-width: 600px;
+    width: 75%;
     color: #fff;
     text-align: center;
     font-size: 1.5em;
@@ -33,9 +33,36 @@ html,body {
     font-size: 2.5em;
     margin: 0;
 }
+.fsize{
+    color:#304352 !important;
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing: 2px;
+   
+
+}
+
+.menus{
+    text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.msize{
+    font-size: 16px !important;
+    color:#777 !important;
+}
+
+#home a{
+    color: #e44c65;
+}
+
+.clr{
+    color:#888;
+}
 
 .hover:hover{
 background: black !important;
+border:0px;
 }
 
 #about {
@@ -231,7 +258,7 @@ background: black !important;
 
 .social-icon>li>a
 {
-    border:4px solid #FFFFFF;
+    border:1px solid #FFFFFF;
     width:45px;
     height:45px;
     line-height: 39px;
@@ -249,3 +276,45 @@ background: black !important;
     color: #304352 !important;
 } */
 
+.send:hover{
+    background:black !important;
+    border:0 !important;
+}
+
+.form-control{
+    background: transparent !important;
+    margin-top:10px !important;
+    
+}
+
+.fa:hover{
+    background: #FFF;
+    color:#e44c65;
+}
+
+.colour>a{
+    color:#e44c65 !important;
+}
+
+h1{
+    letter-spacing: 12px;
+    font-size:30px !important;
+   padding-bottom:15px !important;
+}
+
+p{ 
+    font-size:20px !important;
+    line-height:35px;
+    letter-spacing: 1px;
+}
+
+.overlayy {
+    background: #304352;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+}
