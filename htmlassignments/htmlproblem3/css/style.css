@@ -12,15 +12,37 @@ body{
     font-size:20px !important;
     text-transform: uppercase;
     font-weight: 500;
+    color:#444 !important;
 }
 
 #about{
     padding-top:100px;
     padding-bottom: 100px;
 }
+#about h3{
+    font-size:22px;
+}
+
+#about p{
+    line-height:24px;
+    margin:30px 0;
+}
 .hov:hover{
     background:black;
     color:white !important;
+}
+
+.justify{
+    text-align: justify !important;
+}
+h4{
+    font-size:22px;
+    color:#444;
+    font-weight:300;
+}
+#services p{
+    font-size:18px;
+    text-align: center;
 }
 #myNavbar
 {
@@ -105,11 +127,25 @@ header .intro {
     padding-bottom:100px;
 }
 
+#price p{
+    font-size:18px !important;
+padding-bottom:30px;
+}
+
 #price .ptable{
     border:1px solid #E4E4E4;
     text-align:center;
     background-color: #FFF;
     border-radius: 20px;
+}
+
+.cwhite{
+    color:white;
+}
+
+#price h3{
+    font-size:32px;
+    font-weight:300;
 }
 .ptable>.plan-name{
     box-shadow: 0 0 20px rgba(0,0,0,0.05) inset;
@@ -124,6 +160,7 @@ header .intro {
 .ptable>.plan-list li{
     border-bottom:1px solid #eee;
     padding:8px;
+    font-size:16px;
 }
 ul{
     list-style: none;
@@ -138,13 +175,17 @@ ul{
     padding:20px;
 }
 
+p{
+    font-size:16px !important;
+}
+
 .bck
 {
     background-color: #0ba2db;
     padding:30px 0;
 }
 .high{
-    margin:-15px 0px;
+    margin:-1px 0px;
 }
 
 .ptable:hover{
@@ -157,6 +198,7 @@ ul{
 
 .fa{
     color:#0BA2DB;
+    margin:20px 0;
     /* font-size:26px !important; */
 }
 #contact .social ul li{
@@ -190,9 +232,25 @@ hr {
 }
 
 .size{
-    font-size: 19px;
+    font-size: 15px;
+    font-weight:400 !important;
+    color:#444;
+    letter-spacing:1px;
 }
 
 .divstyle{
     padding-top: 40px;
+}
+
+h2{
+    font-size: 42px !important;
+    color:#444 !important;
+    font-weight:300 !important;
+    margin:0 0 20px 0;
+}
+
+.price-value{
+    font-size: 38px !important;
+    line-height: 52px !important;
+    color:#444;
 }
