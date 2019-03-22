@@ -1,10 +1,11 @@
-body{
+body, html{
 	color: #666;
 	font-weight: 300;
 	width: 100% !important;
     height: 100% !important;
-   position: relative;
-   font-family: 'Roboto';
+   
+    font-family: 'Roboto', sans-serif !important;
+	
 }
 
 .lo{
@@ -13,6 +14,11 @@ body{
     text-transform: uppercase;
     font-weight: 500;
     color:#444 !important;
+    padding:0px !important;
+}
+
+strong{
+    font-weight: 400 !important;
 }
 
 #about{
@@ -21,6 +27,7 @@ body{
 }
 #about h3{
     font-size:22px;
+    font-weight:300;
 }
 
 #about p{
@@ -36,9 +43,9 @@ body{
     text-align: justify !important;
 }
 h4{
-    font-size:22px;
-    color:#444;
-    font-weight:300;
+    font-size:22px !important;
+    color:#444 !important;
+    font-weight:300 !important;
 }
 #services p{
     font-size:18px;
@@ -67,6 +74,9 @@ h4{
     background-color:transparent !important;  
 }
 
+.smessage{
+    border-radius:0px !important;
+}
 .smessage:hover{
     background:black !important;
     border:none;
@@ -162,6 +172,12 @@ padding-bottom:30px;
     padding:8px;
     font-size:16px;
 }
+
+#about li{
+    margin-bottom:10px;
+    font-size:16px;
+    margin-left:10px;
+}
 ul{
     list-style: none;
     padding:0;
@@ -220,12 +236,18 @@ p{
     padding-right:10px;
 }
 
+#services .fa{
+
+    font-size:48px;
+    margin:20px 0;
+}
+
 hr {
     height: 2px;
     width: 70px;
     text-align: center;
-    position: relative;
-    border-top: 1px solid aqua !important;
+    /* position: relative; */
+    background:#0ba2db;
     margin: 0 auto;
     margin-bottom: 20px;
     border: 0;
