@@ -29,7 +29,7 @@ h4{
  line-height:35px !important;
  letter-spacing: 1px;
  text-shadow: 1px 1px #FFF;
- margin-left:150px !important;
+ /* margin-left:150px !important; */
  
 }
 .menu{
@@ -180,10 +180,15 @@ padding:25px 45px 20px 45px;
     background-position: center center;
     color: #ffffff;
     position: relative;
-    padding-top: 100px;
-    height:65vh;
+    padding-top: 50px;
+    height:70vh;
     
 }
+
+#quote h2{
+    font-size:27px !important;
+}
+
 
 #contact .contact-thumb{
     padding:30px;
@@ -300,7 +305,7 @@ strong{
 
 h1{
     /* color:#FFF !important; */
-    font-size:42px;
+    font-size:36px;
     padding-bottom:14px;
     margin-bottom:0px;
     font-weight:300;
