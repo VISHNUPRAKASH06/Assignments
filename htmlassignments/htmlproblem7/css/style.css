@@ -505,8 +505,7 @@ visibility: hidden;
     transition: transform 0.5s;
 }
 
-
-#show-me .row{
-    
-    
+#price{
+    padding:100px 0;
 }
+
