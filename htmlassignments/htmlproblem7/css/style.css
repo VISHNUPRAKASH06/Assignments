@@ -482,15 +482,13 @@ h5{
 } */
 
 
-#form-id .btn:hover{
-    background:black;  
-     
+/* #form-id .btn:hover{
+    background:black;      
+} */
+
+#form-id .btn:focus{
+    background: #000;
 }
-
-
-
-
-
 
 input[type=radio] {
 visibility: hidden;

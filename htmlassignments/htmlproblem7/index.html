@@ -234,10 +234,10 @@
 
             <div class="row">
                 <div class="col-md-12" align="center">
-                        <!-- <div class="btn-group btn-group-toggle" data-toggle="buttons"> -->
                        
-                    <form id='form-id'>
-                        
+                       
+                    <!-- <form id='form-id'>
+                        <div class="change" data-toggle="buttons">
                         <label class="btn btn-primary active">
                             <input type="radio" id='watch-me' name='test' checked >Business
                         </label>
@@ -245,11 +245,15 @@
                             <input type="radio" id='see-me' name='test'>Community
                         </label> 
                         
-                               
+                    </div>    
 
                         
-                    </form>
-                    <!-- </div> -->
+                    </form> -->
+
+                    <div class="btn-group" data-toggle="buttons-radio" id="form-id">
+                        <button class="btn btn-primary active" id='watch-me' name="test" value="1" type="radio" checked>Business</button>
+                        <button class="btn btn-primary" id='see-me' value="2" name="test" type="radio" >Community</button>
+                    </div>
                     <br><br>
                     <div id='show-me'>
                         <div class="row">
