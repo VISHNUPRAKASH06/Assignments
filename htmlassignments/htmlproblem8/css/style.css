@@ -156,15 +156,16 @@ hr{
 #team h3{
 
     font-size:16px;
-    font-weight:600;
+    font-weight:600 !important;
     padding-top:20px;
     border-top:1px solid #b8dea2;
     display: inline-block;
+    line-height:1.2;
 }
 
 #team{
     padding:100px 0;
-    color:#f6f6f6;
+    /* color:#f6f6f6; */
 }
 
 /* Contact Section*/
