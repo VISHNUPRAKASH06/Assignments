@@ -88,6 +88,7 @@ border:0px;
 
 #about {
     background:#f0f0f0;
+    padding-top:80px;
 }
 .thumb{
     background:ffffff;
@@ -341,4 +342,8 @@ p{
     /* top: 0;
     left: 0;
     right: 0; */
+}
+
+.ptop{
+    padding-top:80px;
 }
