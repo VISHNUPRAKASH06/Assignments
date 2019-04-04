@@ -1,0 +1,283 @@
+html,
+body{
+    font-family: 'Hind'!important;
+    font-size:14px;
+    line-height:1.428;
+    color:#333;
+    background-color:#fff;
+}
+
+#experience h3, #work h3, #contact h3{
+    font-size:22px ;
+    font-weight:700 ;
+    color:#515769 ;
+    line-height:1.4 ;
+    margin:0 0 15px ;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+    max-height: 95px;
+    line-height: 65px;
+    float:left;
+}
+
+.logo-wrap{
+    padding:15px 0;
+}
+
+.logo-img{
+    width:64px;
+    height:auto;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.logo-img-active{
+    display: none;
+}
+
+ .clrs{
+    font-weight:600;
+    text-transform: uppercase;
+    color:#fff;
+    line-height:55px;
+    padding:20px !important;
+
+}
+
+#header{
+    background-image: url(../img/1920x1080/01.jpg);
+    height:776px;
+    background-size: cover;
+}
+
+#header .navbar{
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.hcontent{
+    padding-top:300px;
+     border-bottom:1px solid rgba(255,255,255,0.2);
+     padding-bottom:20px;
+}
+
+#header h1{
+    font-size:70px;
+    color:#fff;
+    line-height: 1;
+}
+
+#header p{
+    font-size:25px;
+    color:#fff;
+}
+
+#header .social{
+    list-style: none;
+    display:-webkit-inline-box;
+    padding:0;
+    padding-top:40px;
+}
+
+.social a{
+   
+    color:#fff;
+    /* border-radius:50%; */
+    padding:11px;
+}
+
+.social i{
+    font-size:18px;
+    
+}
+
+.social li{
+    padding-right:10px;
+    padding-left:5px;
+   
+}
+
+.social a:hover{
+    border-radius:100px;
+    text-decoration: none;
+   background: #fff;
+   padding-top:10px;
+   padding-bottom:5px;
+}
+
+h2{
+    font-size:30px !important;
+    font-weight:700 !important;
+    line-height:1.4 !important;
+    margin:0 0 15px;
+    color:#515769 !important;
+}
+
+#intro{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+#experience{
+    background:#fafafa;
+}
+
+.service{
+    background:#fff;
+    padding:30px;
+    height:250px;
+}
+
+#experience i{
+    font-size:30px;
+    color:#999caa;
+}
+
+#experience {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+#experience .icons{
+    padding-bottom:20px;
+}
+
+#experience p, #work p, #contact p, #intro p{
+    color:#a6a7aa;
+    font-size:17px !important;
+    font-weight:400 !important;
+    line-height:1.4;
+}
+
+.active-service{
+    background:#17bed2 !important;
+}
+
+.active-service p{
+    color:#fff !important;
+}
+
+.active-service h3{
+    color:#fff !important;
+}
+
+.active-service i{
+
+    color:#fff !important;
+}
+
+.hove:hover
+{
+    -webkit-transform:translate3d(0,-30%,0);
+    -moz-transform:translate3d(0,-30%,0);
+    transform:translate3d(0,-30%,0);
+    transition-duration:.3s;
+    transition-property:all;
+    transition-timing-function:cubic-bezier(.7,1,.7,1);
+}
+
+.hove:hover .icons{
+    opacity:0;
+}
+
+
+#work{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+#work span{
+    font-size:17px !important;
+    color:#bfc1c7;
+    font-weight:400 !important;
+}
+
+h5{
+    font-weight:700 !important;
+    /* color:#515769 !important; */
+    line-height:1.4 !important;
+    margin:0 0 15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#contact a{
+    color:#999caa ;
+    text-decoration: none;
+    font-size:16px !important;
+
+}
+
+#contact{
+    padding-top:80px;
+    padding-bottom:80px;
+    background: #fafafa;
+}
+
+.footer-logo{
+    width:64px;
+    height:auto;
+}
+
+p{
+    font-size:17px;
+    font-weight:400;
+    color:#a6a7aa;
+}
+
+#copyright a{
+    color:#81848f !important;
+    font-weight:700 !important;
+    text-decoration: none;
+}
+
+#copyright{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.modal-header h5{
+    display:block !important;
+}
+
+.popul{
+    list-style: none;
+    padding:0;
+    display:-webkit-box;
+}
+
+.popul li{
+    padding:5px;
+    font-size:16px !important;
+    color:#515769 !important;
+    font-weight:500 !important;
+}
+
+@media (min-width: 992px) { 
+
+    .modal-dialog{
+        padding-top:100px;
+        max-width:800px !important;
+    }
+    .align5{
+        border-left:1px solid #bfc1c7;
+        padding:20px;
+    }
+}
+
+
+.modal-header{
+    border-bottom:0px !important;
+}
+
+.img-fluid{
+    margin-top:-14px !important;
+}
+
+.progress{
+    height:3px !important;
+    
+}
