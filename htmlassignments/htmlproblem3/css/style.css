@@ -147,10 +147,15 @@ padding-bottom:30px;
     text-align:center;
     background-color: #FFF;
     border-radius: 20px;
+    margin-bottom:15px;
 }
 
 .cwhite{
     color:white;
+}
+
+.dest{
+    border:1px solid #fff !important;
 }
 
 #price h3{
@@ -275,4 +280,10 @@ h2{
     font-size: 38px !important;
     line-height: 52px !important;
     color:#444;
+}
+
+#price .btn:hover{
+
+    background:#000;
+
 }
