@@ -428,3 +428,13 @@ padding-bottom:100px; */
     padding:0px 10px;
     color:green;
 }
+
+
+/* @media only screen and (min-width: 400px) {
+    .navbar-brand img{ 
+max-width: 92px;
+width: 300px;
+margin-top: -27px;
+margin-right: -29px;
+    }
+} */
