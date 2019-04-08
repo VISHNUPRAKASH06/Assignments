@@ -11,27 +11,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
-
 <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="col-md-3">
-            <a class="navbar-brand logo" href="#"><img src="./images/logo.png"></a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
+        <a class="navbar-brand logo" href="#"><img src="./images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="col-md-9">
-                <ul class="nav navbar-nav text-right">
+            <div class="col-md-8 offset-4">
+                <ul class="nav navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./services.html">
+                        <a class="nav-link dropdown-toggle" href="./services.html" data-toggle="dropdown">
                             Services
                         </a>
                         <div class="dropdown-menu">
@@ -57,7 +54,7 @@
                         <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="./contact.html">contact</a>
+                        <a class="nav-link" href="#">contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -230,7 +227,7 @@
 
                 </div>
                 <div class="col-md-6">
-                    <img src="images/person_1.jpg" class="person1 rounded-circle pull-left">
+                    <img src="images/person_2.jpg" class="person1 rounded-circle pull-left">
                     <p>“Design must be functional and functionality must be translated into visual aesthetics.
                         <h6 class="pull-right"> — Ferdinand A.
                             Porsche</h6>
@@ -240,7 +237,7 @@
             </div>
             <div class="row wow fadeInUp styles" data-wow-delay="0.45s">
                 <div class="col-md-6">
-                    <img src="images/person_1.jpg" class="person1 rounded-circle pull-left">
+                    <img src="images/person_3.jpg" class="person1 rounded-circle pull-left">
                     <p>“Design must be functional and functionality must be translated into visual aesthetics.
                         <h6 class="pull-right"> — Ferdinand A.
                             Porsche</h6>
@@ -248,7 +245,7 @@
 
                 </div>
                 <div class="col-md-6">
-                    <img src="images/person_1.jpg" class="person1 rounded-circle pull-left">
+                    <img src="images/person_3.jpg" class="person1 rounded-circle pull-left">
                     <p>“Design must be functional and functionality must be translated into visual aesthetics.
                         <h6 class="pull-right"> — Ferdinand A.
                             Porsche</h6>
@@ -258,7 +255,6 @@
             </div>
         </div>
     </section>
-    
     <section id="contact" class="bg">
         <div class="container">
             <div class="row text-center">
@@ -292,7 +288,7 @@
                 <div class="col-md-3">
                     <form class="form-inline">
                         <div class="form-grop d-flex">
-                            <input type="email" class="form-control" placeholder="Email" required>
+                            <input type="email" class="form-control alss" placeholder="Email" required>
                             <button type="button" class="btn btn-lg">Send </button>
                         </div>
                         <!-- <button type="button" class="btn btn-primary">Send </button> -->
@@ -326,7 +322,24 @@
     <script>
         new WOW().init();
     </script>
-
+<script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+          } else {
+            document.getElementById("myBtn").style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
 </body>
 

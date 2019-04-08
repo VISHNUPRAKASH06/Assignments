@@ -216,6 +216,13 @@ padding:112px 4px 15px 32px;
    margin:-5px 27px 0 11px;
 }
 
+
+#contact .btn-lg{
+
+  /* background:#17B794; */
+  color:white;
+  text-transform: uppercase; 
+}
 .btn-lg{
   background:#17B794;
   /* color:white; */
@@ -233,8 +240,8 @@ padding:112px 4px 15px 32px;
 }
 
 .radius:hover{
-  background:white;
-  color:black;
+  background:white !important;
+  color:black !important;
 }
 #contact.bg{
     background:#262626;
@@ -519,3 +526,25 @@ margin-top:-2em
       color:#17b794;
   }
 
+  .alss{
+    margin-right:7px !important;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
