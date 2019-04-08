@@ -145,6 +145,10 @@ h2{
     padding-bottom:20px;
 }
 
+#header .active{
+    color:#17bed2 !important;
+}
+
 #experience p, #work p, #contact p, #intro p{
     color:#a6a7aa;
     font-size:17px !important;
