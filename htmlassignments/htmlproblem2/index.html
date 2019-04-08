@@ -16,26 +16,27 @@
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
         <nav class="navbar navbar-default navbar-expand-lg bottom header color">
                 <div class="container-fluid navbar navbar-fixed-top custom-navbar top-nav-collapse black" role="navigation" id="menus">
-            <!-- <div class="container"> -->
+           
                 <div class="row">
                 <div class="col-md-6">
-                    <div class="navbar-header navbar-center">
+                    <div class="navbar-header ">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#expand menu">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>       
-                        <a class=" navbar-brand logo" href="#">Stimulus</a>
+                        <a class=" navbar-brand logo text-center" href="#">Stimulus</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="collapse navbar-collapse" id="expand menu">
                         <ul class="nav navbar-nav">
-                            <li><a href="#home">HOME <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#home" class="active">HOME <span class="sr-only">(current)</span></a></li>
                             <li><a href="#about">ABOUT ME</a></li>
                             <li><a href="#experience">EXPERIENCES</a></li>
                             <li><a href="#quote">TESTIMONIAL</a></li>
@@ -43,7 +44,7 @@
                         </ul>
                     </div>
                 </div>
-            <!-- </div> -->
+         
             </div>
         </div>
         </nav>

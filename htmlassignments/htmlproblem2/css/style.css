@@ -236,12 +236,14 @@ display: contents;
     content:"\f09a";
     font-family: FontAwesome;
   display: inline-block;
+  color:#999
 }
 
 .twitter:before{
     content:"\f099";
     font-family: FontAwesome;
   display: inline-block;
+  color:#999
 }
 
 .linkedin:before{
@@ -255,18 +257,21 @@ display: contents;
     content: "\f0d5";
     font-family: FontAwesome;
   display: inline-block;
+  color:#999
 }
 
 .dribble:before{
     content: "\f17d";
     font-family: FontAwesome;
   display: inline-block;
+  color:#999
 
 }
 
 .display{
     display:inline-flex;
     list-style:none;
+    color:#999
     /* margin:10px; */
     
 }
@@ -457,4 +462,12 @@ padding-bottom:22px;
     font-weight:200;
     font-size: 14px;
     
+}
+
+.navbar-nav a{
+    color:#000 !important;
+}
+
+.navbar-nav .active{
+    color:#E39e57 !important;
 }
