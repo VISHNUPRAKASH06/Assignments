@@ -1,0 +1,464 @@
+html
+body{
+    font-family: 'Open Sans'; 
+    color:#333333;
+    line-height: 1.5;
+    font-size:15px;
+}
+
+#intro{
+    background-image:url(../images/banner.jpg);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position:center;
+}
+
+.site-name{
+    font-size:36px;
+}
+
+#intro h6{
+    font-size:36px;
+}
+
+#intro h5{
+    font-size:13px;
+}
+
+.navbar-nav li{
+    font-size:18px;
+    text-transform: capitalize;
+    font-weight:300;
+    padding:10px 20px;
+}
+
+
+.incontent{
+
+    padding-top:30%;
+}
+
+#intro h1{
+
+    font-size:60px;
+    color:#fff;
+}
+
+#intro span, #about span{
+
+color:#339beb;
+}
+
+#intro p{
+
+    font-size:21px;
+    color:#fff;
+    font-weight:300;
+    line-height:1.4;
+}
+
+#about h1{
+
+    font-size:38px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+#about p{
+    font-size:21px;
+}
+
+#about .aligns{
+
+    font-size:16px;
+    color:#333333;
+}
+
+#about .listpara{
+
+    list-style: none;
+    padding:0;
+}
+
+
+#about .listpara li{
+
+    padding:5px 0;
+}
+
+#about .listpara li:before{
+    content:'\f0da';
+    font-family: FontAwesome;
+    color:#339beb;
+    margin-right:10px;
+}
+
+
+#about h2{
+
+    font-size:26px;
+    columns: #333333;
+    margin-bottom:15px;
+}
+
+#about .accordion .card-header:after{
+
+    font-family: 'FontAwesome';
+    content:'\f068';
+    float:right
+}
+
+/* #about .accordion .card-header .collapsed:after{
+    content:'\f067';
+    float:right;
+    font-family: 'FontAwesome';
+} */
+
+#service{
+    background-image: url(../images/bg-image-1.jpg);
+    width:100%;
+    height:100%;
+    background-size:cover;
+}
+
+#service:before{
+
+    background-color: rgba(85,172,238,0.7);
+    content:"";
+    width:100%;
+    height:100vh;
+    position: absolute;
+}
+
+#service h1{
+
+    color:#fff;
+    font-size:38px;
+    font-weight:700;
+    margin-bottom:20px;
+    padding-top:80px;
+    padding-bottom:40px;
+}
+
+.media .fa{
+    font-size:24px;
+    width:40px;
+    height:25px;
+    line-height:25px;
+    padding:0 5px;
+    text-align:center;
+    color:#fff;
+}
+
+#service h4{
+    color:#fff;
+}
+
+#service p{
+    color:#fff;
+}
+
+#together{
+    background-color: #55acee;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+#together h1{
+    font-size:38px;
+    font-weight:700;
+    margin-bottom:20px;
+    color:#fff;
+}
+
+/* Gallery Area*/
+
+#gallery .portfolio-menu ul li{
+    display:inline-block;
+    list-style: none;
+    padding:10px 15px;
+    border:1px solid #55acee;
+    cursor:pointer;
+}
+
+#gallery .portfolio-menu ul li:hover{
+    background:#55acee;
+    color:#fff;
+}
+
+#gallery .portfolio-item .item{
+    width:260px;
+    float:left;
+     margin-bottom:10px;
+}
+
+#gallery .portfolio-item{
+    width:100%;
+}
+
+.portfolio-menu li.active{
+
+    background:#55acee;
+    color:#fff;
+}
+
+
+.img-thumbnail{
+    width:260px;
+    border:none;
+   
+}
+
+#gallery{
+    background: #fff;
+    padding:60px 0;
+}
+
+#gallery .btn-default{
+  
+   color: #999999;
+}
+
+
+#gallery .hoeffect:hover{
+    background-color: #55acee;
+    
+} 
+
+
+#gallery .btn-default:hover{
+    color:#fff;
+}
+
+#gallery .overlay{
+  display:block;
+  position:relative;
+}
+
+#inner-box{
+    height: 100%;
+    width: 100%;
+    background-color: #55acee;
+    opacity: 0;
+    top: 0px;
+    position: absolute;
+    padding: 0;
+}
+
+
+.gacontent{
+   margin-top:60px;
+}
+
+#gallery .fa{
+
+    padding-bottom:40px;
+    color:#fff;
+}
+
+#inner-box:hover{
+    opacity:1;
+}
+
+#gallery p{
+    color:#fff;
+}
+
+#gallery h6{
+    font-size:14px;
+    text-align:justify;
+    line-height:1.5;
+    color:#333333;
+}
+
+
+.modal-header{
+    background:#55acee;
+}
+
+#gallery h4{
+    color:#fff;
+}
+
+#clients{
+    background:url(../images/bg-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width:100%;
+    height:100%;
+    padding-top:100px;
+    /* padding-bottom:100px; */
+    position:relative;
+    /* z-index:1; */
+    background-position: 50% 0;
+    /* color: #ffffff; */
+}
+
+
+.iconss{
+    width:60px;
+    float:left
+}
+
+#clients .container{
+    z-index:3;
+    position: relative;
+}
+
+blockquote{
+    padding-left:0;
+    padding-right:0;
+    border-left:none;
+}
+
+#clients h3{
+    color:#fff;
+    font-size:24px !important;
+    font-weight: 600;
+}
+
+#clients p{
+    color:#fff;
+}
+
+.media-body{
+    display: grid;
+}
+
+#clients span{
+    color:#cccccc;
+}
+
+#clients h1{
+    color:#fff;
+    font-size:38px;
+    font-weight:700;
+    margin-bottom:20px;
+    padding-bottom:20px;
+}
+
+#clients:after{
+    content:"";
+    background-color:rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:2;
+    left:0;
+
+}
+
+.ln-blue{
+    background-color:rgba(85,172,238,0.7);
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.default-lg{
+    background-color: #222222;
+    color:#fff;
+    padding-bottom:10px;
+    padding-top:50px;
+}
+
+.list-icons{
+    padding:0;
+    margin:20px 0;
+    list-style:none;
+    font-size:18px;
+}
+
+.list-icons li{
+    padding:0 0 15px 0;
+}
+
+.list-icons li i{
+    padding-right:10px;
+}
+
+.social-links{
+    padding:0;
+    list-style: none;
+    margin:15px 0;
+}
+
+.social-links li{
+    margin:10px 25px 25px 0;
+    font-size:36px;
+    display: inline-block;
+}
+
+.social-links li a{
+    color:#333333;
+}
+
+.form-control{
+    min-height:45px;
+    border-radius:0px;
+    
+}
+
+
+.form-control-feedback{
+    margin-left:-20px;
+    padding-top:14px;
+}
+
+#contact .btn{
+    color:#55acee;
+    border:1px solid #cccccc;
+    background-color: #fff;
+}
+
+.btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    min-width: 160px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.btn:hover{
+    background-color: #55acee !important;
+    color:#fff !important;
+}
+
+#contact h1{
+    color:#333333;
+    font-size:38px;
+    font-weight:700;
+   padding-bottom:20px;
+
+}
+
+#contact{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+#copyright{
+    background-color: #fafafa;
+    padding:40px 0;
+}
+
+.card-header{
+    background-color: #55acee;
+    padding:0px 20px;
+    color:#fff !important;
+    text-decoration: none;
+}
+
+#about h5{
+    color:#fff;
+    font-size: 16px;
+    font-weight:400;
+    padding:0px 6px 0px 15px;
+   
+}
+
+a.nav-link.active {
+    color: #55acee !important;
+}
