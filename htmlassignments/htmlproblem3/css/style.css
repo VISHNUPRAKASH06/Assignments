@@ -150,6 +150,18 @@ padding-bottom:30px;
     margin-bottom:15px;
 }
 
+#services hr{
+    border-top: 1px solid #0ba2db !important;
+}
+
+#about hr{
+    border-top: 1px solid #0ba2db !important;
+}
+
+#contact hr{
+    border-top: 1px solid #0ba2db !important;
+}
+
 .cwhite{
     color:white;
 }
@@ -252,7 +264,7 @@ hr {
     width: 70px;
     text-align: center;
     /* position: relative; */
-    background:#0ba2db;
+    background:#0ba2db !important;
     margin: 0 auto;
     margin-bottom: 20px;
     border: 0;
@@ -286,4 +298,12 @@ h2{
 
     background:#000;
 
+}
+
+#price .btn{
+    padding: 13px 25px !important;
+}
+
+#price .btn-info{
+    background-color: #0ba2db;
 }
