@@ -292,7 +292,7 @@ a{
 }
 
 P{
-    font-size:16px;
+    font-size:14px;
     font-weight:300;
     line-height:28px;
     letter-spacing:0.2px;
@@ -465,7 +465,12 @@ padding-bottom:22px;
 }
 
 .navbar-nav a{
-    color:#000 !important;
+    color:#666 !important;
+    font-size:14px;
+    font-weight:400;
+    letter-spacing:1px;
+    line-height:40px;
+    transition: all 0.4s ease-in-out;
 }
 
 .navbar-nav .active{
