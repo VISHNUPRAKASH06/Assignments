@@ -488,7 +488,17 @@ h5{
 
 #form-id .btn:focus{
     background: #000;
+    transform: translateX(3px);
 }
+
+/* #form-id:active{
+    background-color: red;
+} */
+
+/* #show-me:active{
+    transform: rotateY(360deg);
+  box-shadow: -5px 5px 5px #aaa;
+} */
 
 input[type=radio] {
 visibility: hidden;
@@ -505,5 +515,10 @@ visibility: hidden;
 
 #price{
     padding:100px 0;
+}
+
+
+#topbar .fa:hover{
+    color: #82CA9C;
 }
 
