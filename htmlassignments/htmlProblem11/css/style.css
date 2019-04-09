@@ -278,7 +278,9 @@ h6{
 #amazing ul li{
     background:url(../images/pkli.png) no-repeat left center;
     padding:15px 0 15px 60px;
+    /* padding:2px 40px 2px 45px; */
     margin-top:20px;
+    overflow: hidden;
 }
 
 .design{
