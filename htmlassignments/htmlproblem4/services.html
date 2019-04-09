@@ -12,51 +12,50 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand logo" href="#"><img src="./images/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <nav class="container navbar navbar-default navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#home"><img src="images/logo.png"></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+          
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="col-md-8 offset-4">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="./services.html" data-toggle="dropdown">
-                            Services<span class="sr-only">(current)</span>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Web Design</a>
-                            <a class="dropdown-item" href="#">E Commerce</a>
-                            <a class="dropdown-item" href="#">Branding</a>
-                            <a class="dropdown-item" href="#">API</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">HTML 5</a>
-                            <a class="dropdown-item" href="#">CSS 3</a>
-                            <a class="dropdown-item" href="#">SASS</a>
-                            <a class="dropdown-item" href="#">JQuery</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="./contact.html">contact</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="./services.html" class="nav-link ">
+                        SERVICES
+                    </a>
+                    <!-- <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Web Design</a>
+                        <a class="dropdown-item" href="#">E Commerce</a>
+                        <a class="dropdown-item" href="#">Branding</a>
+                        <a class="dropdown-item" href="#">API</a>
+                    </div> -->
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        DROPDOWN
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">HTML 5</a>
+                        <a class="dropdown-item" href="#">CSS 3</a>
+                        <a class="dropdown-item" href="#">SASS</a>
+                        <a class="dropdown-item" href="#">JQuery</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <section id="head">
@@ -243,12 +242,12 @@
                 </div>
                 <div class="row">
     
-                    <div class="col-md-3">
+                    <div class="col-md-2 col-sm-6">
                         <h4><span style="color:white;">Cube</span></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna
                             sagittis, rhoncus euismod.</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6">
                         <ul class="color style">
                             <li>Home</li>
                             <li>Features</li>
@@ -257,14 +256,14 @@
                             <li>Contact</li>
                         </ul>
                     </div>
-                    <div class="col-md-2 color">
+                    <div class="col-md-2 color col-sm-3">
                         <h6>+91 97875 50253</h6>
                         <h6>vishnu@xyz.com</h6>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-5 col-sm-9">
                         <form class="form-inline">
                             <div class="form-grop d-flex">
-                                <input type="email" class="form-control alss" placeholder="Email" required>
+                                 <input type="email" class="form-control alss" placeholder="Email" required>
                                 <button type="button" class="btn btn-lg">Send </button>
                             </div>
                             <!-- <button type="button" class="btn btn-primary">Send </button> -->
