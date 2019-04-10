@@ -1,0 +1,21 @@
+<script>
+    var menu = {
+        width: 200,
+        height: 300,
+        title: "my-menu"
+    }
+    function multiplyNumeric(menu) {
+        for (var key in menu) {
+            debugger
+            if (typeof menu[key] === 'number') {
+
+                menu[key] = menu[key] * 2;
+            }
+            else {
+                menu[key] = menu[key];
+            }
+        }
+        console.log(menu)
+    }
+    multiplyNumeric(menu)
+</script>
