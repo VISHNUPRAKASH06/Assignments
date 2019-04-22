@@ -1,4 +1,7 @@
 html
+{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans'; 
     color:#333333;
@@ -213,7 +216,7 @@ color:#339beb;
    
 }
 
-#gallery{
+#gallery, #about{
     background: #fff;
     padding:60px 0;
 }
@@ -395,6 +398,7 @@ blockquote{
 
 .social-links li a{
     color:#333333;
+    transition: all 0.2s ease-in-out;
 }
 
 .form-control{
@@ -413,6 +417,7 @@ blockquote{
     color:#55acee;
     border:1px solid #cccccc;
     background-color: #fff;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn {
