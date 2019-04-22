@@ -1,5 +1,9 @@
-html, body{
+html{
+    scroll-behavior: smooth;
+}
+ body{
 font-family: 'Open Sans';
+
 }
 
 h2{
@@ -148,7 +152,8 @@ hr{
 
 #team .img-thumbnail{
     width:160px;
-    height:160px;
+    /* height:160px; */
+    height:auto;
     border:0;
     padding-bottom:20px;
 }
@@ -288,3 +293,10 @@ hr{
 }
 
 
+/* #social a:hover i{
+    color:#aaa !important;
+} */
+
+#social .fa:hover{
+    color:#aaa !important;
+}
