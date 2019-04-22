@@ -1,4 +1,7 @@
-html,
+html
+{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Hind'!important;
     font-size:14px;
