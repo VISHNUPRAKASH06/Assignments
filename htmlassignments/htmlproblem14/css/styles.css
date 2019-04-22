@@ -18,6 +18,11 @@ html body{
     padding:0 !important;
 }
 
+
+.navbar-nav a:hover{
+    color:#e32929 !important;
+}
+
 #navbar a{
     font-size:16px;
     color:#ccc;
@@ -78,22 +83,23 @@ html body{
 
 .pro1{
     background-image:url(../images/work_1.jpg);
-    height:80%;
+   
+   
 }
 
 .pro2{
     background-image:url(../images/work_2.jpg);
-    height:80%;
+    
 }
 
 .pro3{
     background-image:url(../images/work_3.jpg);
-    height:80%;
+    
 }
 
 .pro4{
     background-image:url(../images/work_4.jpg);
-    height:80%;
+   
 }
 
 .project-content{
@@ -118,6 +124,7 @@ html body{
     border:none;
     text-transform: uppercase;
     padding:15px; 
+    margin-bottom:20px;
 }
 
 #leadership h2{
@@ -235,7 +242,6 @@ html body{
 #about ul li{
     margin-bottom:10px;
 }
-
 #about li:before{
     
     content:'\f058';
@@ -243,4 +249,9 @@ html body{
     color:#ccc;
     font-size:18px;
     margin-right:10px;
+}
+@media screen and (max-width:768px){
+.pro1, .pro2, .pro3, .pro4{
+    height:400px;
+}   
 }
