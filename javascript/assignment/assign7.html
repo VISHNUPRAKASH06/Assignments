@@ -1,19 +1,14 @@
-<script type="text/javascript">
-  function valReq(val) {
-        return (val);
-    }
-    function valNum(val) {
-        return (!isNaN(val));
-    }
+<script>
     var employeeNum, valid = false;
     while (!valid) {
+        debugger
         employeeNum = +prompt("Enter the Value A");
-        valid = (valReq(employeeNum) && valNum(employeeNum));
+        valid = (employeeNum);
     }
     var employeeNum1, valid = false;
     while (!valid) {
         employeeNum1 = +prompt("Enter the Value B");
-        valid = (valReq(employeeNum1) && valNum(employeeNum));
+        valid = (employeeNum1);
     }
 alert(employeeNum1 * employeeNum )
 alert(employeeNum1 + employeeNum )

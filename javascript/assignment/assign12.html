@@ -1,0 +1,13 @@
+<script>
+function camelize( str ) {
+    return str.replace(/-([a-z])/g, function (g)
+     { 
+         debugger
+         return g[1].toUpperCase(); 
+         });
+}
+alert(camelize('-webkit-transition'))
+alert(camelize('list-style-image'))
+alert(camelize('background-color'))
+
+</script>

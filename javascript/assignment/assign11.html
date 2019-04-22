@@ -1,0 +1,11 @@
+<script>
+let array=[1,1,1,0,0,0,0];
+for (let i=0; i<array.length; i++){
+    debugger
+    var x=array.splice((array.length -1),1);
+    debugger
+    console.log(x);
+    array.unshift(x[0]);
+    console.log(array);
+}
+</script>
