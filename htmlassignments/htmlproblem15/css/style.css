@@ -14,10 +14,6 @@ body{
     background-position:center;
 }
 
-.site-name{
-    font-size:36px;
-}
-
 #intro h6{
     font-size:36px;
 }
@@ -33,10 +29,15 @@ body{
     padding:10px 20px;
 }
 
+/* #intro .site-title h6{
+    font-size:20px;
+} */
 
 .incontent{
 
     padding-top:30%;
+    z-index: 2;
+    position: absolute;
 }
 
 #intro h1{
@@ -102,18 +103,20 @@ color:#339beb;
     margin-bottom:15px;
 }
 
-#about .accordion .card-header:after{
-
-    font-family: 'FontAwesome';
-    content:'\f068';
-    float:right
+.accordion .card-header:after {
+  font-family: 'FontAwesome';
+  content: '\f068';
+  float: right;
+  color: black;
 }
 
-/* #about .accordion .card-header .collapsed:after{
-    content:'\f067';
-    float:right;
+/* .card .collapse:after {
     font-family: 'FontAwesome';
+    content: '\f067';
+    float: right;
+    color: black;
 } */
+
 
 #service{
     background-image: url(../images/bg-image-1.jpg);
@@ -456,9 +459,78 @@ blockquote{
     font-size: 16px;
     font-weight:400;
     padding:0px 6px 0px 15px;
-   
+   height:5px;
+   margin-top:7px;
+   margin-bottom:7px;
 }
 
 a.nav-link.active {
     color: #55acee !important;
+}
+
+
+.overlayy{
+    background-color: rgba(0,0,0,0.6) !important;
+    height:100%;
+}
+
+#intro .navbar{
+    color:#fff !important;
+    background-color: rgba(0,0,0,0.10);
+    transition: all 0.2s ease-in-out;
+}
+
+.int:after{
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    background:rgba(0,0,0,0.55);
+    content:"";
+}
+a{
+    text-decoration:none !important;
+}
+
+#accordionEx{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.social-links .facebook:hover i{
+    color: #3b5998;
+}
+
+.social-links .twitter:hover i{
+    color: #55acee;
+}
+
+.social-links .googleplus:hover i{
+    color: #dd4b39;
+}
+
+.social-links .skype:hover i{
+    color: #00aff0;
+}
+
+.social-links .linkedin:hover i{
+    color: #0976b4;
+}
+
+.social-links .youtube:hover i{
+    color: #b31217;
+}
+
+.social-links .flickr:hover i{
+    color: #ff0084;
+}
+
+.social-links .pinterest:hover i{
+    color: #cb2027;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:white;
 }

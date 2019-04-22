@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <title>Vishnu Assignment 15</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
@@ -17,13 +17,15 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
     <section id="intro">
+            <div class="int">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top black">
             <div class="container">
                 <div class="navbar-brand logo">
                     <img src="images/logo.png">
                 </div>
-                <div class="site-title">
+                <div class="site-title custo">
                     <h6>Worthy</h6>
                     <h5>Free Bootstrap Theme by <a href="#">HtmlCoder</a></h5>
                 </div>
@@ -64,6 +66,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <section id="about">
@@ -122,7 +125,7 @@
                                 <div class="card-header" role="tab" id="headingOne1">
                                     <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1"
                                         aria-expanded="true" aria-controls="collapseOne1">
-                                        <h5 class="mb-0">
+                                        <h5>
                                             Collapsible Group Item #1 <i class="fa fa-angle-down rotate-icon"></i>
                                         </h5>
                                     </a>
@@ -1414,7 +1417,7 @@
 
         $('.portfolio-item').isotope({
             itemSelector: '.item',
-            layoutMode: 'fitRows',
+            layoutMode: 'fitRows', // vertical means image is comes from vertical position
         });
         $('.portfolio-menu ul li').click(function () {
             $('.portfolio-menu ul li').removeClass('active');
@@ -1428,19 +1431,18 @@
         });
     </script>
     <script>
-
             $(document).ready(function () {
                 $(window).scroll(function () {
                     var scroll = $(window).scrollTop();
                     if (scroll > 10) {
                         $(".black").css("background", "#000");
                         $(".nav-item a").css("color","#fff");
-
+                        $('.custo h6').css("font-size","48px");
                     }
                     else {
-                        $(".black").css("background", "transparent");
+                        $(".black").css("background", "rgba(0,0,0,0.10");
                         $(".nav-item a").css("color","#fff");
-
+                        $('.custo h6').css("font-size","36x");
                     }
     
                 })
