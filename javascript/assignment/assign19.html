@@ -1,0 +1,25 @@
+<script>
+let john={
+    name:"John", id:1, surname:"Smith"
+};
+
+let pete={
+    name:"Pete",id:2 , surname:"Hunt"
+};
+
+let mary={
+    name:"Mary" , id:3 , surname:"Key"
+};
+
+
+let users=[john,pete,mary];
+
+let usersMapped=users.map(
+    user=>({
+        fullname:user.name + " " + user.surname,
+        id:user.id
+    }));
+
+console.log(usersMapped[2].fullname);
+console.log(usersMapped[2].id);
+</script>
