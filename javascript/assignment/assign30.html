@@ -4,7 +4,7 @@ function getSecondsToTomorrow(){
     let now = new Date();
     let tomorrow=new Date(now.getFullYear(),now.getMonth(), now.getDate()+1);
     console.log(tomorrow);
-    return Math.round((tomorrow - now / 1000));   // this steps to convert the values from milliseconds to seconds
+    return Math.floor((tomorrow - now / 1000));   // this steps to convert the values from milliseconds to seconds
     // return(tomorrow-now / 1000);
 }
 
