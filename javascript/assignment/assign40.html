@@ -1,0 +1,11 @@
+<script>
+
+function getSecondLargest(nums){
+    // return nums.sort().reverse();|
+    let unique = Array.from(new Set(nums));
+    let vishnu=unique.sort().reverse()[1];
+    return vishnu;
+}
+let value=[2,3,6,6,5];
+console.log(getSecondLargest(value));
+</script>
