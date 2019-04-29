@@ -1,4 +1,8 @@
-body, html{
+html{
+    scroll-behavior: smooth;
+}
+
+body{
 	color: #666;
 	font-weight: 300;
 	width: 100% !important;
@@ -8,8 +12,11 @@ body, html{
 	
 }
 
+.size a{
+    color:#444 !important;
+}
 .lo{
-    margin-left:45px !important;
+    margin-left:90px !important;
     font-size:20px !important;
     text-transform: uppercase;
     font-weight: 500;
@@ -17,6 +24,9 @@ body, html{
     padding:0px !important;
 }
 
+.palign{
+    font-size:24px !important;
+}
 strong{
     font-weight: 400 !important;
 }
@@ -55,6 +65,7 @@ h4{
 {
     padding:20px;
     text-transform: uppercase;
+    transition: all 0.8s
 }
 .icon{
     color:#0BABDB;
@@ -112,7 +123,7 @@ header .intro {
     padding: 14px 20px;
     margin: 0;
     font-size: 16px;
-    border-radius: px;
+    border-radius: 2px !important;
     margin-top: 20px;
 }
 
@@ -218,7 +229,9 @@ p{
     padding:30px 0;
 }
 .high{
-    margin:-1px 0px;
+    /* margin:-1px 0px; */
+    margin-top:-11px;
+    margin-bottom:10px
 }
 
 .ptable:hover{
@@ -306,4 +319,11 @@ h2{
 
 #price .btn-info{
     background-color: #0ba2db;
+    border-radius:2px;
+}
+
+
+.social li i:hover{
+    color:#666;
+    transition: all 0.3
 }
