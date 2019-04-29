@@ -1,3 +1,9 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background:#FFFFFF;
     font-weight:400;
@@ -40,6 +46,10 @@ body{
        padding-left:50px;
         font-size:26px;
         font-weight:300;
+    }
+
+    .navbar-nav{
+        margin-right:100px;
     }
 
     h3{
@@ -120,6 +130,8 @@ background:transparent;
     .h3{
         line-height:36px;
         font-weight:500;
+        letter-spacing:0px !important;
+        font-size:24px !important;
     }
 
     .video{
@@ -176,6 +188,10 @@ background:transparent;
         color:white;
     }
 
+
+    .padtop{
+        margin-top:100px;
+    }
     .cardstyle{
         width:230px;
         
@@ -417,3 +433,13 @@ h4{
     color: #999;
 }
 
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: '\f068';
+    float: right;
+    color: #000;
+  }
+  
+  .accordion .card-header.collapsed:after {
+    content: '\f067';
+  }

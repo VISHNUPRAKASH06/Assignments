@@ -23,15 +23,18 @@
     <div class="banner-img">
         <nav class="navbar navbar-expand-lg navbar-light bck fixed-top clr">
 
-            <h2 class="logo">New Event</h2>
+            <!-- <h2 class="logo">New Event</h2> -->
+            <div class="container">
+           <!-- <a class="navbar-brand" href="#">New Events</a> -->
+           <h2 class="logo">New Event</h2>
             <button class="navbar-toggler navbar-light navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="col-md-9 offset-md-3">
-                    <ul class="navbar-nav">
+                <!-- <div class="col-md-9 offset-md-3"> -->
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link active" href="#">INTRO</a>
                         </li>
@@ -57,12 +60,13 @@
                             <a class="nav-link" href="#newevent">CONTACT</a>
                         </li>
                     </ul>
-                </div>
+                <!-- </div> -->
             </div>
+        </div>
         </nav>
        
         <div class="col-md-12 text-center padding">
-            <h3 class="color wow animated bounceIn" data-wow-delay="0.9s">July 22 - 26 in San Francisco, CA</h3>
+            <h3 class="color wow animated bounceIn padtop" data-wow-delay="0.9s">July 22 - 26 in San Francisco, CA</h3>
             <h1 class="color  wow animated fadeInUp" data-wow-delay="1.6s">Web Design Conference</h1>
             <button type="button" class="btn btn-default btn-lg border wow animated fadeInUp" data-wow-delay="2.3s">Learn More</button>
             <button type="button" class="btn btn-danger btn-lg border wow animated fadeInUp" data-wow-delay="2.3s">Register Now</button>
@@ -491,12 +495,12 @@
                 </div>
                 <div class="col-md-5 wow animated fadeInUp" data-wow-delay="0.9s">
                     <form>
-                        <input name="firstname" type="text" class="form-control" placeholder="First Name">
-                        <input name="lastname" type="text" class="form-control" placeholder="Last Name">
+                        <input name="firstname" type="text" class="form-control" placeholder="First Name" required>
+                        <input name="lastname" type="text" class="form-control" placeholder="Last Name" required>
                         <input name="phone" type="tel" class="form-control" placeholder="Phone Number">
                         <input name="email" type="email" class="form-control" placeholder="Email Address">
                         <div class="col-md-6 offset-md-6">
-                            <button type="button" class="btn btn-danger btn-lg sub">REGISTER</button>
+                            <button type="submit" class="btn btn-danger btn-lg sub">REGISTER</button>
                         </div>
                     </form>
                 </div>
@@ -514,11 +518,11 @@
                     <P>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</P>
                 </div>
                 <div class="col-md-8 offset-2">
-                    <div id="accordion" class="accordion">
-                        <div class="">
+                    <div id="accordion">
+                        <div class="accordion">
                             <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
                                 <a class="card-title">
-                                    <span class="fa-plus"></span>
+                                    <!-- <span class="fa-plus"></span> -->
                                     What is Responsive Design?
                                 </a>
                             </div>
@@ -533,7 +537,7 @@
                             <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion"
                                 href="#collapseTwo">
                                 <a class="card-title">
-                                    <span class="fa-plus"></span>
+                                    
                                     What are latest UX Developments?
                                 </a>
                             </div>
@@ -549,7 +553,7 @@
                             <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion"
                                 href="#collapseThree">
                                 <a class="card-title">
-                                    <span class="fa-plus"></span>
+                                    
                                     What things about Social Media will be discussed?
                                 </a>
                             </div>
@@ -635,7 +639,8 @@
                             <input type="email" class="form-control" placeholder="Email" required>
                             <textarea name="message" rows="5" class="form-control" placeholder="Message"
                                 required></textarea>
-                            <button type="button" class="btn btn-info">SEND</button>
+                            <button type="submit" class="btn btn-info">SEND</button>
+                           
                         </form>
                     </div>
                 </div>
