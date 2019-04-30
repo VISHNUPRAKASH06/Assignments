@@ -1,3 +1,17 @@
 <script>
+function sumInput() {
+let numbers = [];
+while (true) {
+  let value = prompt("Please Enter the Number", 0);
+if (value === "" || isNaN(value)) break;
 
+  numbers.push(+value);
+}
+let sum = 0;
+for (let number of numbers) {
+  sum += number;
+}
+return sum;
+}
+console.log( sumInput() );
 </script>
