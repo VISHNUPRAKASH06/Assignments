@@ -1,0 +1,40 @@
+<script>
+let company={
+    sales:[{
+        name:'john',
+        salary:1000
+    }],
+    development:{
+        sites:[{
+            name:'peter',
+            salary:2000
+        },
+        {
+        name:'alex',
+        salary:1800
+        }],
+      internal:[{
+          name:'jack',
+          salary:1300
+      }]  
+    }
+};
+function sumSalaries(obj) {
+    debugger
+			if (Array.isArray(obj)) {  
+				return obj.reduce((pre, current) => pre + current.salary, 0);	
+			}else{
+                debugger
+				let sum = 0;
+				for (let subcat of Object.values(obj)) {
+		
+					sum += sumSalaries(subcat);
+				}
+				return sum;
+			}
+		}
+		alert(sumSalaries(company));
+
+
+
+</script>
