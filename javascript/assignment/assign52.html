@@ -1,0 +1,31 @@
+<!-- <script>
+function sumTo(n){
+    debugger
+    return n * (n+1) / 2;
+}
+console.log(sumTo(3));
+</script> -->
+
+
+<!-- <script>
+
+function sumTo(n){
+    debugger
+    let sum=0;
+    for(let i=0;i<=n;i++){
+        sum+=i;
+    }
+    return sum;
+    
+}
+console.log(sumTo(3));
+</script> -->
+
+<script>
+function sumTo(n) {
+    debugger
+  if (n == 1) return 1;
+  return n + sumTo(n - 1);
+}
+console.log( sumTo(3) );
+</script>
