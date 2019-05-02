@@ -1,12 +1,23 @@
 /* This is the body Region*/
-html,body{
+*{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body{
     font-family:'robotolight';
     font-size:15px;
     color:#565656;
-    widows: 100%;
+    
     font-weight: 300;
     margin-left:0;
     margin-right:0;
+    
 }
 
 h1{
@@ -34,15 +45,24 @@ p{
     font-size:13px;
     color:#FFF;
     padding-right:10px;
+    text-decoration: none !important;
 }
 .contact{
-    font-size:13px;
+    font-size:14px;
     float:right;
+}
+
+.contact a:hover{
+    color: rgba(0, 173, 62, 0.75);
+    /* border-color:transparent; */
+    text-decoration: none;
+    transition: 0.3s ease-in-out
 }
 
 .contact a{
     margin-right:20px;
     color:#FFF;
+   
 }
 
 .contact a i{
@@ -74,6 +94,7 @@ padding-right:5px !important;
     color:#000;
     font-size: 14px;
  font-family: sans-serif;
+ font-weight: 500;
 }
 #topmenu li{
     padding-bottom:10px;
@@ -95,14 +116,19 @@ color: #82ca9c !important;
     height:100vh;
 }
 
+.overlay{
+    background-color: rgba(0,0,0,0.15);
+    height:100%;
+}
+
 #banner .content{
     padding-top:180px;
 }
 
 #banner .content h1{
     color:#fff;
-    font-size:48px;
-    font-weight:700;
+    font-size:52px;
+    font-weight:500;
     margin-bottom:30px;
 }
 
@@ -110,7 +136,6 @@ color: #82ca9c !important;
     color:#fff;
     margin-bottom:30px;
 }
-
 .home-contact>.form-control{
     width:65%;
     height:60px;   
@@ -122,18 +147,19 @@ color: #82ca9c !important;
     max-width: 400px;
     width: 100%;
     height:60px;
+    margin-top:100px;
 }
-
+#show-me-two{
+    
+}
 #banner .btn{
     background: #82ca9c;
     color:#FFF;
 }
-
 #banner .btn:hover{
     background-color: rgba(0, 173, 62, 0.75);
     border-color:transparent;
 }
-
 /* Product Section*/
 #product button{
     margin-top:20px;
@@ -159,6 +185,7 @@ ul{
     font-size:40px;
     color:#222222;
     margin-bottom:40px;
+    font-weight:300;
 }
 
 #product p{
@@ -228,6 +255,7 @@ ul{
     padding:40px 15px;
     border:1px solid #ececec;
     box-shadow: 2px 2px 5px 0 rgba(55,50,40, .20);
+    -webkit-transition: .3s ease-in-out;
     text-align:center;
     margin-top:20px;
 }
@@ -309,6 +337,7 @@ ul{
 
 .social-icon1 a{
     margin-left:15px;
+    text-decoration: none;
 }
 
 .social-icon1 .fa:hover{
@@ -400,6 +429,11 @@ h5{
     padding-bottom:50px;
 }
 
+.navbar-nav a:hover{
+    color:#82CA9C !important;
+    text-decoration: none;
+}
+
 /* Copyrights*/
 .copyright p i{
     color:red;
@@ -409,6 +443,11 @@ h5{
     
     padding-top:20px;
     padding-bottom:20px;
+}
+
+#copyright a{
+    color:#32E10A !important;
+    text-decoration: NONE;
 }
 
 .footer-content .btn-primary{
@@ -515,10 +554,13 @@ visibility: hidden;
 
 #price{
     padding:100px 0;
+    
+   
 }
 
 
 #topbar .fa:hover{
     color: #82CA9C;
+    
 }
 
