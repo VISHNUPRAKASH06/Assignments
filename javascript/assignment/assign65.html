@@ -1,0 +1,23 @@
+<script>
+let users=[
+    {
+        name:"john", age:20, surname:"Johnson"
+    },
+    {
+        name:"Pete", age:18, surname:"Peterson"
+    },
+    {
+        name:"Ann" ,age:19, surname:"Hathway"
+    }
+];
+
+function byField(field){
+    debugger
+    return (a,b)=>a[field]>b[field]?1:-1;
+}
+users.sort(byField('name'));
+users.forEach(users=>alert(users.name));
+users.sort(byField('age'));
+users.forEach(users=>alert(users.name));
+
+</script>
