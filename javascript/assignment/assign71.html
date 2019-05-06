@@ -1,0 +1,18 @@
+<script>
+
+class Animal{
+    constructor(name){
+        this.name=name;
+    }
+}
+
+class Rabbit extends Animal{
+    constructor(name){
+        super(name); // Super keyword is used to immediate parent of a class
+        this.created=Date.now();
+    }
+}
+
+let rabbit =new Rabbit("White Rabbit");
+console.log(rabbit.name)
+</script>
