@@ -1,12 +1,10 @@
 <script>
     let schedule = {};
-    alert(isEmpty(schedule));
+    console.log(isEmpty(schedule));
     schedule["8:30"] = "get up";
-    alert(isEmpty(schedule));  
-      
-    function isEmpty(schedule){
-       
-    for(let x in schedule){
+    console.log(isEmpty(schedule)); 
+    function isEmpty(obj){  
+    for(let x in obj){
         return false;
     }
         return true;

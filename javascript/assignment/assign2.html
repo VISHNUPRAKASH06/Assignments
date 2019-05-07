@@ -1,19 +1,22 @@
 <script>
 var salary={
-    john:100,
+    john:120,
     ann:160,
     pete:100
 }
-
 function totalsalary(salary)
 {
     var sum=0;
     for(var salary of Object.values(salary)){
-        debugger
+        if(isNaN(salary))
+        {
+            alert("Please Enter the Number")
+        }
         // sum=sum+salary;
         sum +=salary;
     }
+
     return sum;
 }
-console.log(+totalsalary(salary))
+console.log(totalsalary(salary))
 </script>
