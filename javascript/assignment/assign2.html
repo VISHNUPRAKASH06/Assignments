@@ -2,18 +2,27 @@
 var salary={
     john:120,
     ann:160,
-    pete:100
+    pete:100,
+    vishnu:"prakash"
 }
 function totalsalary(salary)
 {
     var sum=0;
-    for(var salary of Object.values(salary)){
-        if(isNaN(salary))
+    for(let x in salary){
+        
+        if(!isNaN(salary[x]))
         {
-            alert("Please Enter the Number")
+
+            // alert("Please Enter the Number")
+            sum += salary[x];
+
         }
-        // sum=sum+salary;
-        sum +=salary;
+        
+
+           
+        
+
+        // sum +=salary;
     }
 
     return sum;

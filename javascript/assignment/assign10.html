@@ -1,9 +1,9 @@
 <script>
 function Accumulator(initialValue) {
+  debugger
   this.value = initialValue;
   this.read = function() {
     this.value += +prompt('How much to add?', 0);
-    // alert( isFinite(this.value) );
   };
 }
 let accumulator = new Accumulator(1);

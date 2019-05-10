@@ -1,12 +1,23 @@
 <script>
+
+    var name="vishnu"
+    
     function makeUser(){
+       
         return{
             name:"John",
-          ref(){
-              return this;
-          }
+            ref:this
+        //   ref()
+        //   {
+        //       console.log(this)
+        //       return this
+              
+        //   }
+    
+        
         };
     };
     let user = makeUser();
-    console.log(user.ref().name);
+    // console.log(user.ref().name);
+    console.log(user.ref.name);
 </script>

@@ -2,12 +2,17 @@
     var menu = {
         width: 200,
         height: 300,
-        title: "my-menu"
+        title: {
+            name:"vishnu",
+            pra:100
+        }
     }
     function multiplyNumeric(menu) {
         for (var key in menu) {
-            debugger
-            if (typeof menu[key] === 'number') {
+            
+            // if (typeof menu[key] === 'number') {
+                if (typeof menu[key]=== 'number') {
+
 
                 menu[key] = menu[key] * 2;
             }

@@ -1,15 +1,17 @@
 <script>
-    var employeeNum, valid = false;
-    while (!valid) {
-        debugger
-        employeeNum = +prompt("Enter the Value A");
-        valid = (employeeNum);
+let calculator = {
+    sum() {
+      return this.a + this.b;
+    },
+    mul() {
+      return this.a * this.b;
+    },
+    read() {
+      this.a = +prompt('a?', 0);
+      this.b = +prompt('b?', 0);
     }
-    var employeeNum1, valid = false;
-    while (!valid) {
-        employeeNum1 = +prompt("Enter the Value B");
-        valid = (employeeNum1);
-    }
-alert(employeeNum1 * employeeNum )
-alert(employeeNum1 + employeeNum )
-</script>
+  };
+  calculator.read();
+  alert( calculator.sum() );
+  alert( calculator.mul() );
+  </script>
